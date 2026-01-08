@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFShuffle - The Ultimate PDF Toolkit for macOS</title>
+    <meta name="description" content="Split, merge, extract, and reorder PDFs locally on your Mac. 100% offline, no uploads, no subscriptions. Your all-in-one PDF toolkit.">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PDFShuffle for macOS">
+    <meta name="twitter:description" content="Split, merge, extract, reorder. All your PDF needs in one app.">
+    <meta name="twitter:image" content="./app-preview.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+        }
+        .glass {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+    <!-- Navigation -->
+    <nav class="w-full py-5 px-6 max-w-6xl mx-auto flex justify-between items-center">
+        <div class="flex items-center gap-2">
+            <div class="w-8 h-8 gradient-bg rounded-lg flex items-center justify-center">
+                <span class="text-white text-sm font-bold">G+</span>
+            </div>
+            <span class="text-xl font-bold tracking-tight">PDFShuffle</span>
+        </div>
+        <div class="flex items-center gap-6">
+            <a href="#features" class="text-sm font-medium text-gray-600 hover:text-gray-900 transition">Features</a>
+            <a href="#download" class="text-sm font-medium text-gray-600 hover:text-gray-900 transition">Download</a>
+            <a href="https://cnrs-oguzumut.github.io/scientific-profile/" class="text-sm font-medium text-gray-500 hover:text-gray-900 transition">About</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="max-w-5xl mx-auto px-6 pt-16 pb-24 text-center">
+        <div class="inline-flex items-center gap-2 px-4 py-2 mb-8 text-sm font-medium text-gray-700 bg-gray-100 rounded-full">
+            <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+            Version 1.0 — Native macOS App
+        </div>
+
+        <h1 class="text-5xl md:text-6xl font-extrabold tracking-tight mb-6 leading-[1.1]">
+            Your complete PDF toolkit.<br>
+            <span class="gradient-text">Split, merge, extract, reorder.</span>
+        </h1>
+
+        <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+            The only PDF app you'll ever need. A powerful macOS app that handles all your PDF tasks without uploading them anywhere.
+            Works offline with beautiful dark and light modes.
+        </p>
+
+        <div id="download" class="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <a href="#" class="px-8 py-4 gradient-bg text-white font-semibold rounded-xl text-lg hover:opacity-90 transition shadow-lg shadow-blue-500/25 hover:shadow-xl hover:shadow-blue-500/30 transform hover:-translate-y-0.5">
+                Coming Soon to App Store
+            </a>
+        </div>
+
+        <p class="mt-6 text-sm text-gray-500">macOS 13.0+ • Apple Silicon & Intel</p>
+    </header>
+
+    <!-- App Preview -->
+    <div class="max-w-4xl mx-auto px-6 mb-32">
+        <div class="relative rounded-2xl shadow-2xl overflow-hidden border border-gray-200 bg-gradient-to-b from-gray-50 to-gray-100">
+            <div class="absolute inset-0 bg-gradient-to-tr from-blue-500/5 to-purple-500/5"></div>
+            <img src="./app-preview.png"
+                 onerror="this.parentElement.innerHTML='<div class=\'flex items-center justify-center h-96 text-gray-400\'><p>App screenshot</p></div>'"
+                 class="w-full relative z-10"
+                 alt="PDFShuffle App Interface">
+        </div>
+    </div>
+
+    <!-- Features -->
+    <section id="features" class="py-24 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Four Powerful Tools in One App</h2>
+                <p class="text-gray-600 max-w-xl mx-auto">Everything you need to work with PDFs, beautifully designed.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-2xl mb-5">✂️</div>
+                    <h3 class="text-lg font-bold mb-3">Split</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        4 splitting methods: by range, every N pages, specific pages, or single pages. Maximum flexibility.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-2xl mb-5">🔗</div>
+                    <h3 class="text-lg font-bold mb-3">Merge</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        Combine multiple PDFs with drag & drop. Reorder files before merging. Simple and intuitive.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center text-2xl mb-5">📄</div>
+                    <h3 class="text-lg font-bold mb-3">Extract</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        Visual page selector with thumbnails. Click to select pages you want to extract. That's it.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center text-2xl mb-5">🔄</div>
+                    <h3 class="text-lg font-bold mb-3">Reorder</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        Drag pages to rearrange them. Reverse entire document with one click. Smooth animations.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why PDFShuffle -->
+    <section class="py-24">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Why PDFShuffle?</h2>
+                <p class="text-gray-600 max-w-xl mx-auto">Built for privacy, designed for speed.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+                    <div class="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center text-2xl mb-5">🔒</div>
+                    <h3 class="text-lg font-bold mb-3">100% Offline</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Your files never leave your Mac. No uploads, no cloud processing, no tracking. Perfect for sensitive documents.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+                    <div class="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center text-2xl mb-5">🌓</div>
+                    <h3 class="text-lg font-bold mb-3">Dark & Light Mode</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Beautiful interface that adapts to your preference. Toggle between dark and light mode with one click.
+                    </p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border border-gray-100 shadow-sm">
+                    <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center text-2xl mb-5">⚡</div>
+                    <h3 class="text-lg font-bold mb-3">Native & Fast</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Built with Swift and PDFKit. Uses Apple's native frameworks for maximum performance and reliability.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-24 bg-gray-900">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-white mb-4">Ready to master your PDFs?</h2>
+            <p class="text-gray-400 mb-8">Coming soon to the App Store. No account required. No strings attached.</p>
+            <a href="#" class="inline-block px-8 py-4 bg-white text-gray-900 font-semibold rounded-xl text-lg hover:bg-gray-100 transition">
+                Coming Soon
+            </a>
+        </div>
+    </section>
+
+    <!-- Privacy Policy -->
+    <section id="privacy" class="py-16 bg-gray-50 border-t border-gray-100">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-6">Privacy Policy</h2>
+            <div class="prose text-gray-600 space-y-4">
+                <p><strong>Last updated:</strong> January 2026</p>
+                <p>PDFShuffle is designed with privacy as a core principle. We do not collect, store, or transmit any user data.</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Data Collection</h3>
+                <p>This app collects <strong>no personal information</strong>. All PDF operations happen entirely on your device. Your files are never uploaded to any server.</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Network Access</h3>
+                <p>This app does not require internet access and makes no network connections. It works completely offline.</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Third-Party Services</h3>
+                <p>This app does not integrate with any third-party analytics, advertising, or tracking services.</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Contact</h3>
+                <p>If you have questions about this privacy policy, contact us at <a href="mailto:laletaneri@gmail.com" class="text-blue-600 hover:underline">laletaneri@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support -->
+    <section id="support" class="py-16 border-t border-gray-100">
+        <div class="max-w-3xl mx-auto px-6">
+            <h2 class="text-2xl font-bold mb-6">Support</h2>
+            <div class="prose text-gray-600 space-y-4">
+                <p>Need help with PDFShuffle? We're here to assist.</p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Contact</h3>
+                <p>For bug reports, feature requests, or general questions, please email us at:</p>
+                <p><a href="mailto:laletaneri@gmail.com" class="text-blue-600 hover:underline font-medium">laletaneri@gmail.com</a></p>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">Features</h3>
+                <ul class="list-disc list-inside space-y-2">
+                    <li><strong>Split:</strong> 4 methods - by range, every N pages, specific pages, or single pages</li>
+                    <li><strong>Merge:</strong> Combine multiple PDFs with drag & drop reordering</li>
+                    <li><strong>Extract:</strong> Visual page selector with thumbnails</li>
+                    <li><strong>Reorder:</strong> Drag-to-reorder pages with smooth animations</li>
+                </ul>
+                <h3 class="text-lg font-semibold text-gray-900 mt-6">System Requirements</h3>
+                <p>macOS 13.0 (Ventura) or later. Compatible with both Apple Silicon and Intel Macs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-gray-100">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-gray-500 text-sm">© 2026 Lale Taneri</p>
+            <div class="flex items-center gap-6 text-sm">
+                <a href="#privacy" class="text-gray-500 hover:text-gray-900 transition">Privacy Policy</a>
+                <a href="#support" class="text-gray-500 hover:text-gray-900 transition">Support</a>
+                <a href="https://ko-fi.com/oguzumut" class="text-gray-500 hover:text-gray-900 transition">Ko-fi</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,302 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.PDFShuffle-arm64-apple-macosx26.0-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/sources",
+      "importPath" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ModeViews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFShuffleApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "PDFShuffle",
+      "moduleOutputPath" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/Modules/PDFShuffle.swiftmodule",
+      "objects" : [
+        "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ContentView.swift.o",
+        "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ModeViews.swift.o",
+        "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFProcessor.swift.o",
+        "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFShuffleApp.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-whole-module-optimization",
+        "-num-threads",
+        "10",
+        "-serialize-diagnostics",
+        "-O",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "PDFShuffle_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "pdfgenie"
+      ],
+      "outputFileMapPath" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ModeViews.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFShuffleApp.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/Modules/PDFShuffle.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ContentView.swift",
+        "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ModeViews.swift",
+        "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFProcessor.swift",
+        "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFShuffleApp.swift"
+      ],
+      "tempsPath" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build",
+      "wholeModuleOptimization" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "PDFShuffle" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "PDFShuffle",
+      "-package-name",
+      "pdfgenie",
+      "-c",
+      "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ContentView.swift",
+      "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ModeViews.swift",
+      "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFProcessor.swift",
+      "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFShuffleApp.swift",
+      "-I",
+      "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-whole-module-optimization",
+      "-num-threads",
+      "10",
+      "-serialize-diagnostics",
+      "-O",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "PDFShuffle_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "pdfgenie",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "PDFShuffle" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ModeViews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFShuffleApp.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/sources"
+    },
+    "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ModeViews.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFShuffleApp.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.product/Objects.LinkFileList"
+    },
+    "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

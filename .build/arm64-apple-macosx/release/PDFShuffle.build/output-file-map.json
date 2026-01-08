@@ -1,0 +1,31 @@
+{
+  "": {
+    "dependencies": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFShuffle.d",
+    "object": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFShuffle.o",
+    "swift-dependencies": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/master.swiftdeps"
+  },
+  "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ContentView.swift": {
+    "object": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ContentView.swift.o",
+    "swiftmodule": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ContentView.dia"
+  },
+  "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ModeViews.swift": {
+    "object": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ModeViews.swift.o",
+    "swiftmodule": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ModeViews~partial.swiftmodule",
+    "swift-dependencies": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ModeViews.swiftdeps",
+    "diagnostics": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/ModeViews.dia"
+  },
+  "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFProcessor.swift": {
+    "object": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFProcessor.swift.o",
+    "swiftmodule": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFProcessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFProcessor.swiftdeps",
+    "diagnostics": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFProcessor.dia"
+  },
+  "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFShuffleApp.swift": {
+    "object": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFShuffleApp.swift.o",
+    "swiftmodule": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFShuffleApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFShuffleApp.swiftdeps",
+    "diagnostics": "/Users/usalman/pdf_compressor_store/PDFGenie/.build/arm64-apple-macosx/release/PDFShuffle.build/PDFShuffleApp.dia"
+  }
+}
