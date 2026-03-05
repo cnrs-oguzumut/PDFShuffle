@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'AllExcludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'PDFShuffle_-1ADBA0A6A696C24F_PackageProduct' in project 'PDFShuffle'
+Target 'PDFShuffle_-1ADBA0A6A696C24F_PackageProduct' in project 'PDFShuffle' (no dependencies)

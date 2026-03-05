@@ -1,0 +1,11 @@
+{
+  "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ContentView.swift" : {
+    "abi-baseline-json" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle.abi.json",
+    "const-values" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle-primary.swiftconstvalues",
+    "dependencies" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle-primary.d",
+    "diagnostics" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle-primary.dia",
+    "swiftdoc" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle.swiftdoc",
+    "swiftmodule" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle.swiftmodule",
+    "swiftsourceinfo" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle.swiftsourceinfo"
+  }
+}

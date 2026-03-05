@@ -1,0 +1,31 @@
+{
+  "" : {
+    "const-values" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle-primary.swiftconstvalues",
+    "dependencies" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle-primary.d",
+    "diagnostics" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle-primary.dia",
+    "emit-module-dependencies" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle-primary-emit-module.dia",
+    "pch" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffle-primary.swiftdeps"
+  },
+  "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ContentView.swift" : {
+    "index-unit-output-path" : "/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/ModeViews.swift" : {
+    "index-unit-output-path" : "/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/ModeViews.o",
+    "llvm-bc" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/ModeViews.bc",
+    "object" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/ModeViews.o"
+  },
+  "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFProcessor.swift" : {
+    "index-unit-output-path" : "/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFProcessor.o",
+    "llvm-bc" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFProcessor.bc",
+    "object" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFProcessor.o"
+  },
+  "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFShuffleApp.swift" : {
+    "index-unit-output-path" : "/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffleApp.o",
+    "llvm-bc" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffleApp.bc",
+    "object" : "/Users/usalman/pdf_compressor_store/PDFGenie/.build/apple/Intermediates.noindex/PDFShuffle.build/Release/PDFShuffle.build/Objects-normal/arm64/PDFShuffleApp.o"
+  }
+}

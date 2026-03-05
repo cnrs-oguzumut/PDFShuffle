@@ -1,0 +1,16 @@
+{
+  "source": "/Users/usalman/pdf_compressor_store/PDFGenie/Sources/PDFShuffleApp.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Toggle Dark/Light Mode",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 20
+        }
+      }
+    ]
+  },
+  "version": 1
+}

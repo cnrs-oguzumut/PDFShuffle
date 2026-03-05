@@ -35,7 +35,42 @@
             background: rgba(255, 255, 255, 0.8);
             backdrop-filter: blur(10px);
         }
+
+        /* Lightbox Styles */
+        #lightbox {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(8px);
+            align-items: center;
+            justify-content: center;
+            cursor: zoom-out;
+        }
+
+        #lightbox-img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+        }
+
+        .screenshot-thumb {
+            cursor: zoom-in;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .screenshot-thumb:hover {
+            transform: scale(1.02);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
     </style>
+    <script data-goatcounter="https://oguzumut.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 
 <body class="bg-white text-gray-900 antialiased">
@@ -188,6 +223,31 @@
         </div>
     </section>
 
+    <!-- Screenshots -->
+    <section class="py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">Masterfully Crafted Interface</h2>
+                <p class="text-gray-600 max-w-xl mx-auto">Seamlessly manage your documents with a professional toolkit.
+                </p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="space-y-4">
+                    <img src="./LT1.png" alt="PDFShuffle Main View"
+                        class="screenshot-thumb w-full rounded-2xl shadow-lg border border-gray-100"
+                        onclick="openLightbox(this)">
+                    <p class="text-center text-sm text-gray-500 font-medium">Intuitive Main Dashboard</p>
+                </div>
+                <div class="space-y-4">
+                    <img src="./LT2.png" alt="PDFShuffle Tool in Action"
+                        class="screenshot-thumb w-full rounded-2xl shadow-lg border border-gray-100"
+                        onclick="openLightbox(this)">
+                    <p class="text-center text-sm text-gray-500 font-medium">Visual Precision Tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- CTA -->
     <section class="py-24 bg-gray-900">
         <div class="max-w-3xl mx-auto px-6 text-center">
@@ -259,6 +319,30 @@
         </div>
     </footer>
 
+    <!-- Lightbox Modal -->
+    <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" src="" alt="Enlarged screenshot">
+    </div>
+
+    <script>
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+
+        function openLightbox(img) {
+            lightbox.style.display = 'flex';
+            lightboxImg.src = img.src;
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            lightbox.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeLightbox();
+        });
+    </script>
 </body>
 
 </html>
